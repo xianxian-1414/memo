@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sliding Tabs with Add Button and LocalStorage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+  <div class="sidebar">
+    <div class="tabs" id="tabs">
+      <!-- タブを動的に追加 -->
+    </div>
+    <button id="add-tab" class="add-tab-button" title="新規メモを追加">＋</button>
+  </div>
+
+  <div class="editor">
+    <input id="title" type="text" maxlength="100" placeholder="タイトル" />
+    <textarea id="body" maxlength="1000" placeholder="本文"></textarea>
+    <button class="save-button" id="save-note">保存</button>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
